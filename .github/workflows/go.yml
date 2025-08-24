@@ -19,7 +19,7 @@ jobs:
         go-version: '1.20'
 
     - name: Build
-      run: go build -e 20250823
+      run: go build -v ./...
 
     # - name: Test
     #   run: go test -v ./...
